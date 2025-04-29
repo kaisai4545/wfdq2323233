@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+#camera-view video {
+    width: 100%;
+    border-radius: 8px;
+}
+#diagnosing {
+    font-size: 24px;
+    color: #ff5e99;
+    margin-top: 20px;
+}
+#result {
+    font-size: 32px;
+    color: #3b82f6;
+    margin-top: 20px;
+}
+.hidden {
+    display: none;
+}
